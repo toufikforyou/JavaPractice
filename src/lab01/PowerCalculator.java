@@ -13,6 +13,8 @@ public class PowerCalculator {
 
         double result = addPower(num, power);
         System.out.println(num + " to the power of " + power + " is " + result);
+
+        scanner.close();
     }
 
     public static int addPower(int num, int power) {

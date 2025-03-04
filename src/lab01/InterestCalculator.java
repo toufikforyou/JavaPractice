@@ -13,6 +13,8 @@ public class InterestCalculator {
         double interest = calculateInterest(principal, rate, time);
         System.out.println("The principal amount is " + principal + "and interest rate is " + rate
                 + "% and the interest is " + interest);
+
+        scanner.close();
     }
 
     public static double calculateInterest(double principal, double rate, double time) {

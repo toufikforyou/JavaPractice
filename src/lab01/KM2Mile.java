@@ -12,6 +12,7 @@ public class KM2Mile {
 
         System.out.println(km + " km is " + mile + " miles.");
 
+        scanner.close();
     }
 
     public static double km2mile(double km) {

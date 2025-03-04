@@ -8,6 +8,8 @@ public class TimeConvert {
         int secound = scanner.nextInt();
 
         timeConvert(secound);
+
+        scanner.close();
     }
 
     public static void timeConvert(int time) {
