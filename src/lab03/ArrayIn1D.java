@@ -58,6 +58,7 @@ public class ArrayIn1D {
                 System.out.println("The sum is NOT divisible by the count of even numbers.");
             }
         }
+
         scanner.close();
     }
 }
