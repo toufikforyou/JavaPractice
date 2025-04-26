@@ -15,9 +15,10 @@ public class ArmstrongCheck {
         while (number != 0) {
             int digit = number % 10;
             sum += digit * digit * digit;
-            System.out.println(digit);
             number /= 10;
         }
+
+        System.out.println();
 
         if (sum == num) {
             System.out.println(num + " is an Armstrong number.");
