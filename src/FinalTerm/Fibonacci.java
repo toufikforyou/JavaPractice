@@ -3,10 +3,8 @@ package FinalTerm;
 public class Fibonacci {
 
     public static int sumfibonacci(int n) {
-        if (n == 0) {
-            return 0;
-        } else if (n == 1) {
-            return 1;
+        if (n <= 1) {
+            return n;
         } else {
             return sumfibonacci(n - 1) + sumfibonacci(n - 2);
         }
